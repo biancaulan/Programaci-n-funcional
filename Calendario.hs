@@ -10,7 +10,7 @@
 -- donde c = columnas (3 o 4) y 
 --       n = a�o cuyo calendario deseamos imprimir
 ------------------------------------------------------------------
-module Calendario where
+module Calendario (printCalendario) where
 import Data.List (foldl')
 
 type Dibujo = [Linea]  -- cada dibujo es una lista de lineas 
